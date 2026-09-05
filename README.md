@@ -31,7 +31,7 @@ The purpose of this research is to find out if there exists any improvement in t
 
 The statistical alert catches **92% of true anomalies** at a small (1.08%) false-alarm cost. The fixed threshold never raises a false alarm, but only catches the extreme tip of each anomaly episode - the 16 points across all five episodes that literally cross 90°C - missing the other 134 points that are well outside normal range but still under the absolute cutoff.
 
-![Telemetry with true anomaly episodes and fixed threshold](Plotss/fig1_timeseries.png)
+![Telemetry with true anomaly episodes and fixed threshold](Plots/fig1_timeseries.png)
 
 ![Detection rate and false alarm rate comparison](Plots/fig5_comparison.png)
 

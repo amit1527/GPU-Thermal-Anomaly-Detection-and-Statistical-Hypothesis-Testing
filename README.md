@@ -29,13 +29,11 @@ The purpose of this research is to find out if there exists any improvement in t
 | **Detection Rate** | **92.0%** | 10.7% |
 | **False Alarm Rate** | 1.08% | **0.0%** |
 
-The statistical alert catches **92% of true anomalies** at a small (1.08%) false-alarm cost. The fixed threshold never raises a false alarm, but only catches the extreme tip of each anomaly episode — the 16 points across all five episodes that literally cross 90°C — missing the other 134 points that are well outside normal range but still under the absolute cutoff.
+The statistical alert catches **92% of true anomalies** at a small (1.08%) false-alarm cost. The fixed threshold never raises a false alarm, but only catches the extreme tip of each anomaly episode - the 16 points across all five episodes that literally cross 90°C - missing the other 134 points that are well outside normal range but still under the absolute cutoff.
 
-![Telemetry with true anomaly episodes and fixed threshold](figs/fig1_timeseries.png)
+![Telemetry with true anomaly episodes and fixed threshold](Plotss/fig1_timeseries.png)
 
-![Detection rate and false alarm rate comparison](figs/fig5_comparison.png)
-
-See the [full report](report/Project_Report.pdf) for the complete methodology, discussion, and limitations.
+![Detection rate and false alarm rate comparison](Plots/fig5_comparison.png)
 
 ## How It Works
 
@@ -56,7 +54,7 @@ gpu-anomaly-detection/
 ├── Data/
 │   ├── telemetry_data.csv    # 10,000 readings (combined normal + anomalies)
 │   └── normal_data.csv       # 9,850 normal-only reference readings
-├── figs/
+├── Plots/
 │   ├── fig1_timeseries.png
 │   ├── fig2_histogram.png
 │   └── fig5_comparison.png
